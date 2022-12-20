@@ -1,0 +1,25 @@
+.landing__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    height: calc(100vh - 15vh);
+    padding: 10vw;
+} 
+.landing__title{
+    font-size: var(--font-xxl);
+    color: #242424;
+    padding-bottom: 4rem;
+}
+.landing__subtitle{
+    padding-bottom: 2rem;
+    font-size: var(--font-xl);
+    text-align: center;
+}
+.landing__content{
+    width: 100%;
+    max-width: 800px;
+    font-size: var(--font-norm);
+}
