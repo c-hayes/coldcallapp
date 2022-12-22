@@ -1,11 +1,10 @@
 .landing__container{
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     max-width: 1200px;
     width: 100%;
-    height: calc(100vh - 15vh);
+    height: 85vh;
     padding: 10vw;
 } 
 .landing__title{
